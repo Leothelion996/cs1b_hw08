@@ -1,0 +1,129 @@
+Script started on 2024-04-24 01:37:41-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="148" LINES="26"]
+]0;stdsoul@csvm: ~/Documents/CS1B/hw08[01;32mstdsoul@csvm[00m:[01;34m~/Documents/CS1B/hw08[00m$ make all
+g++ hw08.cpp -o hw08 
+]0;stdsoul@csvm: ~/Documents/CS1B/hw08[01;32mstdsoul@csvm[00m:[01;34m~/Documents/CS1B/hw08[00m$ ./hw08
+account 1
+Balance: $500.01
+making a deposit of $30.99
+making a withdrawl of $500
+***********
+ACCOUNT STATEMENT
+***********
+Account Name: account One / Base class.
+Account numer: 550001.
+Your balance is: $31.
+this account does not accrude interest.
+
+account 2
+Ammount of checks left this month: 5.
+Balance: $200
+attempting to write a check for $60.
+Balance fell below the minimum of $150.
+Min balance Fee of $7.99 charged.
+Your new balance is $132.01.
+***********
+ACCOUNT STATEMENT
+***********
+Account Name: Service Charge / Checking.
+Account numer: 550002.
+Your balance is: $132.01.
+this account does not accrude interest.
+Available Checks this month: 4.
+This account has a balance minimum of $150.
+This account has a service charge of $2.99.
+
+account 3
+Ammount of checks left this month: 100.
+Balance: $400
+attempting to write a check for $60.
+
+ successfully wrote a check for $60
+***********
+ACCOUNT STATEMENT
+***********
+Account Name: No Service Charge / Checking.
+Account numer: 550003.
+Your balance is: $334.01.
+Your interest rate is: 0.02%.
+This acount can write unlimited checks.
+This account has a balance minimum of $200.
+This account does not have a monthly Service charge.
+
+account 4
+***********
+ACCOUNT STATEMENT
+***********
+Account Name: Savings Account.
+Account numer: 550004.
+Your balance is: $600.
+Your interest rate is: 0.06%.
+This account has no Minimum.
+If you store your money for 8 months you will accumulate $0.24. For a total of $600.24.
+making a withdrawl of $50
+making a deposit of $150
+***********
+ACCOUNT STATEMENT
+***********
+Account Name: Savings Account.
+Account numer: 550004.
+Your balance is: $700.
+Your interest rate is: 0.06%.
+This account has no Minimum.
+If you store your money for 8 months you will accumulate $0.28. For a total of $700.28.
+
+account 5
+***********
+ACCOUNT STATEMENT
+***********
+Account Name: High interest Savings Account.
+Account numer: 550005.
+Your balance is: $2500.
+Your interest rate is: 10%.
+Account minimum is: $2000.
+If you store your money for 6 months you will accumulate $125. For a total of $2625.
+making a withdrawl of $50
+making a deposit of $150
+***********
+ACCOUNT STATEMENT
+***********
+Account Name: High interest Savings Account.
+Account numer: 550005.
+Your balance is: $2600.
+Your interest rate is: 10%.
+Account minimum is: $2000.
+If you store your money for 6 months you will accumulate $130. For a total of $2730.
+
+account 6
+***********
+ACCOUNT STATEMENT
+***********
+Account Name: certificate Of Deposit Account.
+Account numer: 550006.
+Your balance is: $10000.
+Your interest rate is: 40%.
+The penalty for early withdral onthis account is: 0.6%
+This account will take 12 months to mature.
+You have 2 months left until maturity.
+making a withdrawl of $100
+Penalty for early withdrawl will be 0.6%. Which comes out to $5940.
+
+
+Fast foward to the maturity of CD.
+
+making a withdrawl of $200
+Withdrew without penalty.
+***********
+ACCOUNT STATEMENT
+***********
+Account Name: certificate Of Deposit Account.
+Account numer: 550006.
+Your balance is: $9700.
+Your interest rate is: 40%.
+The penalty for early withdral onthis account is: 0.6%
+This account will take 12 months to mature.
+This account has matured and is ready to pay out $3880.
+your new total is $13580.
+]0;stdsoul@csvm: ~/Documents/CS1B/hw08[01;32mstdsoul@csvm[00m:[01;34m~/Documents/CS1B/hw08[00m$ exit
+exit
+
+Script done on 2024-04-24 01:38:49-07:00 [COMMAND_EXIT_CODE="0"]
