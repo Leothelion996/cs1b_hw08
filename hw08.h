@@ -63,7 +63,7 @@ class bankAccount
     std::cout << "***********\nACCOUNT STATEMENT\n***********\n";
     std::cout << "The name of this ammount is: " << name << ".\n";
     std::cout << "Account numer: " << accountNumber << ".\n";
-    std::cout << "Your balance is: $" << balance << ".\n";
+    std::cout << "Your balance is: $" << balance << ".\n***********End***********\n";
   }
 
   virtual double getBalance()
@@ -131,20 +131,25 @@ class checkingAccount : public bankAccount
   }
 };
 
+/*
 
+Certification of Deposit
 
-
+*/
 class certificateOfDeposit : public bankAccount
 {
   private:
   double penalty;
   int months = 6;
+  int currentMonth;
 
 };
 
+/*
 
+Savings Account
 
-
+*/
 class savingsAccount : public bankAccount
 {
   private: 
